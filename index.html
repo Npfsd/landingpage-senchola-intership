@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <span><img src="./images/icons.png" alt="icon" ></span>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Temple</a></li>
+            <li><a href="#">Online Booking</a></li>
+            <li><a href="#">Donations</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </nav>
+    <div class="Content">
+
+    <div class="temple">
+        <h1>Thanjavur Brihadeeswara Temple</h1>
+  
+       <div class="button">
+        <button class="button1">Online Booking</button>
+        <button class="button2">Special Entry</button>
+       </div>
+    </div>
+     </div>
+
+
+   <script>
+    document.querySelector('.hamburger').onclick=function(){
+        document.querySelector('ul').classList.toggle('slide')
+    }
+   </script>
+</body>
+</html>
